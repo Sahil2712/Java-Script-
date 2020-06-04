@@ -1,0 +1,64 @@
+body {
+    /* background-color: rgba(104, 117, 175, 0.5)); */
+    background-color: black;
+}
+
+section {
+    background-color: #830129;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    /* padding: 10px 30px 20px  20px; */
+    margin: 100px auto;
+    width: 80%;
+    height: 50%;
+}
+
+#bills {
+    margin: 10px auto;
+    /* margin-top: auto; */
+    /* margin-bottom: 40px; */
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+h2 {
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+h3 {
+    font-family: cursive;
+}
+
+#calculate {
+    background-color: rgba(255, 0, 0, 0.6);
+    color: rgb(58, 52, 52);
+    font-size: 30px;
+    /* padding:0 0 0 10px; */
+}
+
+#calculate::before {
+    background-color: black;
+}
+
+#calculate::after {
+    background-color: blue;
+}
+
+#calculate:hover {
+    background-color: black;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    /* background-color: black; */
+}
+
+h1 {
+    font-family: cursive;
+}
