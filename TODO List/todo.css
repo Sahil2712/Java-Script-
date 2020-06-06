@@ -106,3 +106,22 @@ input {
 	-o-transition: all 0.75 ease;
 	font-weight: normal;
 }
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .row{
+      font-size: 10px;
+  }
+  .into{
+    font-size: 12px;
+  }
+  /* .row .col-32{
+    font-size: 0px;
+  } */
+  .row .listItems{
+    text-align: center;
+  }
+
+}
